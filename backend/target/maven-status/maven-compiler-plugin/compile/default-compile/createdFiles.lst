@@ -1,0 +1,5 @@
+com\nsetracker\backend\StockPriceService.class
+com\nsetracker\backend\Stock.class
+com\nsetracker\backend\WebSocketConfig.class
+com\nsetracker\backend\NseTrackerApplication.class
+com\nsetracker\backend\StockController.class
