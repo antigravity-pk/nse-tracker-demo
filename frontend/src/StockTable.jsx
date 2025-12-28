@@ -381,8 +381,8 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th className="px-6 py-4 text-right hidden md:table-cell">Day Range</th>
-                            <th className="px-6 py-4 text-right hidden lg:table-cell">Week Range</th>
                             <th className="px-6 py-4 text-right hidden xl:table-cell">Year Range</th>
+                            <th className="px-6 py-4 text-right hidden lg:table-cell">GapToHigh/GapToLow</th>
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-700">
@@ -482,13 +482,13 @@ const StockTable = () => {
                                         <div className="text-xs text-green-500/80 mb-1">H: {formatCurrency(stock.dayHigh)}</div>
                                         <div className="text-xs text-red-500/80">L: {formatCurrency(stock.dayLow)}</div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono text-gray-400 hidden lg:table-cell">
-                                        <div className="text-xs text-green-500/80 mb-1">H: {formatCurrency(stock.weekHigh)}</div>
-                                        <div className="text-xs text-red-500/80">L: {formatCurrency(stock.weekLow)}</div>
-                                    </td>
                                     <td className="px-6 py-4 text-right font-mono text-gray-400 hidden xl:table-cell">
                                         <div className="text-xs text-green-500/80 mb-1">H: {formatCurrency(stock.yearHigh)}</div>
                                         <div className="text-xs text-red-500/80">L: {formatCurrency(stock.yearLow)}</div>
+                                    </td>
+                                    <td className="px-6 py-4 text-right font-mono text-gray-400 hidden lg:table-cell">
+                                        <div className="text-xs text-green-500/80 mb-1">H: {stock.weekHigh.toFixed(1)}%</div>
+                                        <div className="text-xs text-red-500/80">L: {stock.weekLow.toFixed(1)}%</div>
                                     </td>
                                 </tr>
                             );

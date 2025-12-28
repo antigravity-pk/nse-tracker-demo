@@ -1,3 +1,7 @@
-mvn spring-boot:run
-
+frontend
+npm install
 npm run dev
+
+
+backend
+mvn spring-boot:run
