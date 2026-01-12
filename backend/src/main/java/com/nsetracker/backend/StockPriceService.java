@@ -17,6 +17,7 @@ import jakarta.annotation.PostConstruct;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Service
@@ -30,6 +31,8 @@ public class StockPriceService {
 
     // NSE requires cookies to be set, so we store them after hitting the homepage
     private List<String> cookies;
+    private Long threadPollTime = null; // Poll time in seconds, null means default logic
+    private ScheduledFuture<?> scheduledTask;
 
     public StockPriceService(SimpMessagingTemplate messagingTemplate, RestTemplate restTemplate,
             TaskScheduler taskScheduler) {
@@ -113,18 +116,43 @@ public class StockPriceService {
     }
 
     private void scheduleNextPoll(long delayMs) {
-        taskScheduler.schedule(this::fetchNseDataAndReschedule, Instant.now().plusMillis(delayMs));
+        this.scheduledTask = taskScheduler.schedule(this::fetchNseDataAndReschedule, Instant.now().plusMillis(delayMs));
     }
 
     private void fetchNseDataAndReschedule() {
         try {
             fetchNseData();
         } finally {
-            // Random delay between 60s (60000ms) and 90s (90000ms)
-            long nextDelay = ThreadLocalRandom.current().nextLong(60000, 90001);
-            logger.info("Next NSE data fetch scheduled in {} seconds", nextDelay / 1000);
+            long nextDelay;
+            if (threadPollTime != null && threadPollTime > 0) {
+                nextDelay = threadPollTime * 1000;
+                logger.info("Using user-defined poll interval: {} seconds", threadPollTime);
+            } else {
+                nextDelay = ThreadLocalRandom.current().nextLong(180000, 300001);
+                logger.info("Next NSE data fetch scheduled in {} seconds (default logic)", nextDelay / 1000);
+            }
             scheduleNextPoll(nextDelay);
         }
+    }
+
+    public void setThreadPollTime(Long seconds) {
+        this.threadPollTime = seconds;
+        logger.info("threadPollTime updated to: {} seconds", seconds != null ? seconds : "default");
+
+        // Cancel existing task and reschedule immediately with the new delay
+        if (scheduledTask != null && !scheduledTask.isDone()) {
+            scheduledTask.cancel(false);
+            logger.info("Cancelled existing scheduled poll task");
+        }
+
+        long nextDelay;
+        if (threadPollTime != null && threadPollTime > 0) {
+            nextDelay = threadPollTime * 1000;
+        } else {
+            nextDelay = ThreadLocalRandom.current().nextLong(180000, 300001);
+        }
+        logger.info("Rescheduling next poll in {} seconds", nextDelay / 1000);
+        scheduleNextPoll(nextDelay);
     }
 
     public void fetchNseData() {

@@ -14,10 +14,7 @@ const StockTable = () => {
         symbol: ''
     });
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
-    const [watchlist, setWatchlist] = useState(() => {
-        const saved = localStorage.getItem('nse_watchlist');
-        return saved ? JSON.parse(saved) : [];
-    });
+    const [watchlist, setWatchlist] = useState([]);
     const [portfolio, setPortfolio] = useState([]);
     const [showWatchlistOnly, setShowWatchlistOnly] = useState(false);
     const [showPortfolioOnly, setShowPortfolioOnly] = useState(false);
@@ -43,9 +40,7 @@ const StockTable = () => {
     // Store previous prices to determine direction for animation
     const prevPricesRef = useRef({});
 
-    useEffect(() => {
-        localStorage.setItem('nse_watchlist', JSON.stringify(watchlist));
-    }, [watchlist]);
+    // Watchlist persistence is handled by the backend
 
     useEffect(() => {
         // Fetch initial portfolio from backend
@@ -53,6 +48,12 @@ const StockTable = () => {
             .then(res => res.json())
             .then(data => setPortfolio(data || []))
             .catch(err => console.error("Failed to fetch portfolio:", err));
+
+        // Fetch initial watchlist from backend
+        fetch('http://localhost:8080/api/stocks/watchlist')
+            .then(res => res.json())
+            .then(data => setWatchlist(data || []))
+            .catch(err => console.error("Failed to fetch watchlist:", err));
 
         // Connect to WebSocket
         const socket = new SockJS('http://localhost:8080/ws');
@@ -134,12 +135,20 @@ const StockTable = () => {
         setSortConfig({ key, direction });
     };
 
-    const toggleWatchlist = (symbol) => {
-        setWatchlist(prev =>
-            prev.includes(symbol)
-                ? prev.filter(s => s !== symbol)
-                : [...prev, symbol]
-        );
+    const toggleWatchlist = async (symbol) => {
+        const isInWatchlist = watchlist.includes(symbol);
+        try {
+            const method = isInWatchlist ? 'DELETE' : 'POST';
+            await fetch(`http://localhost:8080/api/stocks/watchlist/${symbol}`, { method });
+
+            setWatchlist(prev =>
+                isInWatchlist
+                    ? prev.filter(s => s !== symbol)
+                    : [...prev, symbol]
+            );
+        } catch (err) {
+            console.error("Failed to update watchlist:", err);
+        }
     };
 
     const togglePortfolio = async (symbol) => {

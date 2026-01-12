@@ -9,9 +9,34 @@ import java.util.List;
 public class StockController {
 
     private final PortfolioService portfolioService;
+    private final StockPriceService stockPriceService;
+    private final WatchlistService watchlistService;
 
-    public StockController(PortfolioService portfolioService) {
+    public StockController(PortfolioService portfolioService, StockPriceService stockPriceService,
+            WatchlistService watchlistService) {
         this.portfolioService = portfolioService;
+        this.stockPriceService = stockPriceService;
+        this.watchlistService = watchlistService;
+    }
+
+    @GetMapping("/watchlist")
+    public List<String> getWatchlist() {
+        return watchlistService.getWatchlist();
+    }
+
+    @PostMapping("/watchlist/{symbol}")
+    public void addToWatchlist(@PathVariable String symbol) {
+        watchlistService.addStock(symbol);
+    }
+
+    @DeleteMapping("/watchlist/{symbol}")
+    public void removeFromWatchlist(@PathVariable String symbol) {
+        watchlistService.removeStock(symbol);
+    }
+
+    @GetMapping("/update-poll-time")
+    public void updatePollTime(@RequestParam(required = false) Long pollTime) {
+        stockPriceService.setThreadPollTime(pollTime);
     }
 
     @GetMapping("/ping")
