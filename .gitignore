@@ -33,7 +33,8 @@ replay_pid*
 /coverage
 
 # production build
-/build
+/build/
+target/
 
 # misc
 .DS_Store
