@@ -161,7 +161,8 @@ public class StockPriceService {
         }
 
         try {
-            String url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY 500";
+            java.net.URI uri = java.net.URI
+                    .create("https://www.nseindia.com/api/equity-stock-indices?index=NIFTY%20500");
 
             HttpHeaders headers = new HttpHeaders();
             headers.add("Host", "www.nseindia.com");
@@ -192,8 +193,8 @@ public class StockPriceService {
 
             HttpEntity<String> entity = new HttpEntity<>(headers);
 
-            logger.info("Fetching data from NSE: {}", url);
-            ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
+            logger.info("Fetching data from NSE: {}", uri);
+            ResponseEntity<String> response = restTemplate.exchange(uri, HttpMethod.GET, entity, String.class);
 
             String body = response.getBody();
             if (body != null && !body.trim().isEmpty()) {

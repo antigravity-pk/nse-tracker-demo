@@ -5,3 +5,9 @@ npm run dev
 
 backend
 mvn spring-boot:run
+
+
+
+
+Terms:
+nearWKH (Near 52-Week High): Represents the percentage difference between the current price and the asset's highest price over the last 52 weeks.
