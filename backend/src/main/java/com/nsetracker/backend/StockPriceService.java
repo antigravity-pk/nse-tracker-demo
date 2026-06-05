@@ -227,28 +227,32 @@ public class StockPriceService {
             JsonNode dataNode = root.get("data");
 
             if (dataNode != null && dataNode.isArray()) {
-                List<Stock> stocks = new ArrayList<>();
+                Set<Stock> stocks = new HashSet<>();
+                Set<String> seenSymbols = new HashSet<>();
                 for (JsonNode node : dataNode) {
                     if (node.has("symbol")) {
-                        Stock stock = new Stock();
-                        stock.setSymbol(node.path("symbol").asText());
-                        stock.setPrice(node.path("lastPrice").asDouble(0.0));
-                        stock.setDayHigh(node.path("dayHigh").asDouble(0.0));
-                        stock.setDayLow(node.path("dayLow").asDouble(0.0));
+                        String symbol = node.path("symbol").asText();
+                        if (seenSymbols.add(symbol)) {
+                            Stock stock = new Stock();
+                            stock.setSymbol(symbol);
+                            stock.setPrice(node.path("lastPrice").asDouble(0.0));
+                            stock.setDayHigh(node.path("dayHigh").asDouble(0.0));
+                            stock.setDayLow(node.path("dayLow").asDouble(0.0));
 
-                        stock.setYearHigh(node.path("yearHigh").asDouble(0.0));
-                        stock.setYearLow(node.path("yearLow").asDouble(0.0));
+                            stock.setYearHigh(node.path("yearHigh").asDouble(0.0));
+                            stock.setYearLow(node.path("yearLow").asDouble(0.0));
 
-                        stock.setWeekHigh(node.path("nearWKH").asDouble(0.0));
-                        stock.setWeekLow(node.path("nearWKL").asDouble(0.0));
-                        stock.setPChange(node.path("pChange").asDouble(0.0));
-                        stock.setPerChange30d(node.path("perChange30d").asDouble(0.0));
-                        stock.setPerChange365d(node.path("perChange365d").asDouble(0.0));
-                        stock.setFfmc(node.path("ffmc").asDouble(0.0));
-                        // stock.setIndustry(node.path("meta").path("industry").asText("N/A"));
-                        stock.setCompanyName(node.path("identifier").asText("N/A"));
+                            stock.setWeekHigh(node.path("nearWKH").asDouble(0.0));
+                            stock.setWeekLow(node.path("nearWKL").asDouble(0.0));
+                            stock.setPChange(node.path("pChange").asDouble(0.0));
+                            stock.setPerChange30d(node.path("perChange30d").asDouble(0.0));
+                            stock.setPerChange365d(node.path("perChange365d").asDouble(0.0));
+                            stock.setFfmc(node.path("ffmc").asDouble(0.0));
+                            // stock.setIndustry(node.path("meta").path("industry").asText("N/A"));
+                            stock.setCompanyName(node.path("identifier").asText("N/A"));
 
-                        stocks.add(stock);
+                            stocks.add(stock);
+                        }
                     }
                 }
                 logger.info("Broadcasted {} stocks", stocks.size());
