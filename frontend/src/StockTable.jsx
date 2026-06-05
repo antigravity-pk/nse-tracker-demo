@@ -10,7 +10,6 @@ const StockTable = () => {
         pChange: '',
         perChange30d: '',
         perChange365d: '',
-        industry: '',
         symbol: ''
     });
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
@@ -23,7 +22,6 @@ const StockTable = () => {
     const DUMMY_STOCK = {
         symbol: 'DEMO-NSE',
         companyName: 'Demo NSE Company Limited',
-        industry: 'Demo Industry (Backend Offline)',
         price: 1234.56,
         pChange: 1.25,
         perChange30d: 5.67,
@@ -119,7 +117,6 @@ const StockTable = () => {
             pChange: '',
             perChange30d: '',
             perChange365d: '',
-            industry: '',
             symbol: ''
         });
         setSortConfig({ key: null, direction: null });
@@ -190,11 +187,6 @@ const StockTable = () => {
                 if (!symbolMatch && !companyMatch) return false;
             }
 
-            // Industry text filter
-            if (filters.industry && !(stock.industry || '').toLowerCase().includes(filters.industry.toLowerCase())) {
-                return false;
-            }
-
             const pChangeMin = parseFloat(filters.pChange);
             const p30Min = parseFloat(filters.perChange30d);
             const p365Min = parseFloat(filters.perChange365d);
@@ -211,18 +203,31 @@ const StockTable = () => {
                 const aValue = a[sortConfig.key];
                 const bValue = b[sortConfig.key];
 
-                if (typeof aValue === 'string') {
-                    return sortConfig.direction === 'asc'
-                        ? aValue.localeCompare(bValue)
-                        : bValue.localeCompare(aValue);
+                // If values are numeric, compare them numerically
+                const parsedA = parseFloat(aValue);
+                const parsedB = parseFloat(bValue);
+
+                if (!isNaN(parsedA) && !isNaN(parsedB)) {
+                    if (parsedA < parsedB) return sortConfig.direction === 'asc' ? -1 : 1;
+                    if (parsedA > parsedB) return sortConfig.direction === 'asc' ? 1 : -1;
+                } else if (typeof aValue === 'string') {
+                    const compareResult = aValue.localeCompare(bValue);
+                    if (compareResult !== 0) {
+                        return sortConfig.direction === 'asc' ? compareResult : -compareResult;
+                    }
+                } else {
+                    const nA = aValue || 0;
+                    const nB = bValue || 0;
+                    if (nA < nB) return sortConfig.direction === 'asc' ? -1 : 1;
+                    if (nA > nB) return sortConfig.direction === 'asc' ? 1 : -1;
                 }
 
-                const nA = aValue || 0;
-                const nB = bValue || 0;
-                if (nA < nB) return sortConfig.direction === 'asc' ? -1 : 1;
-                if (nA > nB) return sortConfig.direction === 'asc' ? 1 : -1;
-                return 0;
+                // Tie-breaker: sort alphabetically by symbol to prevent random swapping on updates
+                return a.symbol.localeCompare(b.symbol);
             });
+        } else {
+            // Default stable sort by symbol ascending when no column sorting is active
+            sortableStocks.sort((a, b) => a.symbol.localeCompare(b.symbol));
         }
         return sortableStocks;
     }, [stocks, filters, sortConfig, watchlist, showWatchlistOnly, portfolio, showPortfolioOnly]);
@@ -310,7 +315,15 @@ const StockTable = () => {
                         <tr>
                             <th className="px-6 py-4">
                                 <div className="flex flex-col gap-2">
-                                    <span>Symbol</span>
+                                    <div
+                                        className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors"
+                                        onClick={() => requestSort('symbol')}
+                                    >
+                                        <span>Symbol</span>
+                                        {sortConfig.key === 'symbol' && sortConfig.direction ? (
+                                            sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                                        ) : <ChevronDown size={14} className="opacity-20" />}
+                                    </div>
                                     <input
                                         type="text"
                                         name="symbol"
@@ -323,35 +336,23 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-left cursor-pointer hover:text-white transition-colors w-48"
-                                onClick={() => requestSort('industry')}
+                                className="px-6 py-4 text-right cursor-pointer hover:text-white transition-colors"
+                                onClick={() => requestSort('price')}
                             >
-                                <div className="flex flex-col gap-2">
-                                    <div className="flex items-center gap-1">
-                                        Industry
-                                        {sortConfig.key === 'industry' ? (
-                                            sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
-                                        ) : <ChevronDown size={14} className="opacity-20" />}
-                                    </div>
-                                    <input
-                                        type="text"
-                                        name="industry"
-                                        value={filters.industry}
-                                        onChange={handleFilterChange}
-                                        onClick={(e) => e.stopPropagation()}
-                                        placeholder="Filter..."
-                                        className="bg-gray-800 border border-gray-700 rounded px-2 py-1 text-[11px] text-white focus:outline-none focus:ring-1 focus:ring-blue-500/50 font-normal w-full"
-                                    />
+                                <div className="flex items-center justify-end gap-1">
+                                    Price
+                                    {sortConfig.key === 'price' && sortConfig.direction ? (
+                                        sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                                    ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
                             </th>
-                            <th className="px-6 py-4 text-right">Price</th>
                             <th
                                 className="px-6 py-4 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors w-32"
                                 onClick={() => requestSort('ffmc')}
                             >
                                 <div className="flex items-center justify-end gap-1">
                                     FFMC (Cr)
-                                    {sortConfig.key === 'ffmc' ? (
+                                    {sortConfig.key === 'ffmc' && sortConfig.direction ? (
                                         sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
                                     ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
@@ -362,7 +363,7 @@ const StockTable = () => {
                             >
                                 <div className="flex items-center justify-end gap-1">
                                     % Change
-                                    {sortConfig.key === 'pChange' ? (
+                                    {sortConfig.key === 'pChange' && sortConfig.direction ? (
                                         sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
                                     ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
@@ -373,7 +374,7 @@ const StockTable = () => {
                             >
                                 <div className="flex items-center justify-end gap-1">
                                     30D %
-                                    {sortConfig.key === 'perChange30d' ? (
+                                    {sortConfig.key === 'perChange30d' && sortConfig.direction ? (
                                         sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
                                     ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
@@ -384,7 +385,7 @@ const StockTable = () => {
                             >
                                 <div className="flex items-center justify-end gap-1">
                                     365D %
-                                    {sortConfig.key === 'perChange365d' ? (
+                                    {sortConfig.key === 'perChange365d' && sortConfig.direction ? (
                                         sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
                                     ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
@@ -449,9 +450,6 @@ const StockTable = () => {
                                                 </span>
                                             )}
                                         </div>
-                                    </td>
-                                    <td className="px-6 py-4 text-left font-medium text-gray-400 w-48 truncate">
-                                        <span className="text-sm" title={stock.industry}>{(stock.industry || 'N/A').split(' ').slice(0, 3).join(' ')}</span>
                                     </td>
                                     <td className="px-6 py-4 text-right font-mono text-lg font-bold">
                                         <div className={classNames("flex items-center justify-end gap-2 transition-colors duration-300", priceClass)}>

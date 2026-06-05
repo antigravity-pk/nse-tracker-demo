@@ -16,7 +16,9 @@ import org.springframework.web.client.RestTemplate;
 import jakarta.annotation.PostConstruct;
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -243,8 +245,8 @@ public class StockPriceService {
                         stock.setPerChange30d(node.path("perChange30d").asDouble(0.0));
                         stock.setPerChange365d(node.path("perChange365d").asDouble(0.0));
                         stock.setFfmc(node.path("ffmc").asDouble(0.0));
-                        stock.setIndustry(node.path("meta").path("industry").asText("N/A"));
-                        stock.setCompanyName(node.path("meta").path("companyName").asText("N/A"));
+                        // stock.setIndustry(node.path("meta").path("industry").asText("N/A"));
+                        stock.setCompanyName(node.path("identifier").asText("N/A"));
 
                         stocks.add(stock);
                     }
