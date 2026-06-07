@@ -13,11 +13,14 @@ import org.springframework.scheduling.TaskScheduler;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import jakarta.annotation.PostConstruct;
+import java.io.File;
 import java.time.Instant;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ThreadLocalRandom;
@@ -35,6 +38,7 @@ public class StockPriceService {
     private List<String> cookies;
     private Long threadPollTime = null; // Poll time in seconds, null means default logic
     private ScheduledFuture<?> scheduledTask;
+    private Map<String, CompanyDetails> companyNameMap = new HashMap<>();
 
     public StockPriceService(SimpMessagingTemplate messagingTemplate, RestTemplate restTemplate,
             TaskScheduler taskScheduler) {
@@ -113,8 +117,34 @@ public class StockPriceService {
 
     @PostConstruct
     public void startPolling() {
+        loadCompanyDescriptions();
         // Start the first poll immediately (or with a small delay)
         scheduleNextPoll(1000);
+    }
+
+    private void loadCompanyDescriptions() {
+        try {
+            File file = new File("companyDesc.json");
+            if (file.exists()) {
+                List<Map<String, String>> companies = objectMapper.readValue(file,
+                        new TypeReference<List<Map<String, String>>>() {
+                        });
+                for (Map<String, String> entry : companies) {
+                    String symbol = entry.get("symbol");
+                    String name = entry.get("companyName");
+                    String industry = entry.get("marketCategory");
+                    if (symbol != null && name != null) {
+                        CompanyDetails company = new CompanyDetails(name, industry);
+                        companyNameMap.put(symbol, company);
+                    }
+                }
+                logger.info("Loaded {} company descriptions from companyDesc.json", companyNameMap.size());
+            } else {
+                logger.warn("companyDesc.json not found at: {}", file.getAbsolutePath());
+            }
+        } catch (Exception e) {
+            logger.error("Failed to load companyDesc.json: {}", e.getMessage());
+        }
     }
 
     private void scheduleNextPoll(long delayMs) {
@@ -227,6 +257,7 @@ public class StockPriceService {
             JsonNode dataNode = root.get("data");
 
             if (dataNode != null && dataNode.isArray()) {
+                boolean printNodebln = true;
                 Set<Stock> stocks = new HashSet<>();
                 Set<String> seenSymbols = new HashSet<>();
                 for (JsonNode node : dataNode) {
@@ -248,10 +279,16 @@ public class StockPriceService {
                             stock.setPerChange30d(node.path("perChange30d").asDouble(0.0));
                             stock.setPerChange365d(node.path("perChange365d").asDouble(0.0));
                             stock.setFfmc(node.path("ffmc").asDouble(0.0));
-                            // stock.setIndustry(node.path("meta").path("industry").asText("N/A"));
-                            stock.setCompanyName(node.path("identifier").asText("N/A"));
+                            CompanyDetails companyDetail = companyNameMap.getOrDefault(symbol,
+                                    new CompanyDetails("N/A", "N/A"));
+                            stock.setIndustry(companyDetail.getIndustry());
+                            stock.setCompanyName(companyDetail.getName());
 
                             stocks.add(stock);
+                            if (printNodebln && !(symbol.equals("NIFTY 500") || symbol.equals("BSE"))) {
+                                logger.info("Single node {}", node);
+                                printNodebln = false;
+                            }
                         }
                     }
                 }

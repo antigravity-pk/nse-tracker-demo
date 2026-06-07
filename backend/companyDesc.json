@@ -1,0 +1,2522 @@
+[
+    {
+        "symbol": "360ONE",
+        "companyName": "360 ONE WAM Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "3MINDIA",
+        "companyName": "3M India Ltd.",
+        "marketCategory": "Diversified"
+    },
+    {
+        "symbol": "ABB",
+        "companyName": "ABB India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ACC",
+        "companyName": "ACC Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "ACMESOLAR",
+        "companyName": "ACME Solar Holdings Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "AIAENG",
+        "companyName": "AIA Engineering Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "APLAPOLLO",
+        "companyName": "APL Apollo Tubes Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "AUBANK",
+        "companyName": "AU Small Finance Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "AWL",
+        "companyName": "AWL Agri Business Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "AADHARHFC",
+        "companyName": "Aadhar Housing Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "AARTIIND",
+        "companyName": "Aarti Industries Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "AAVAS",
+        "companyName": "Aavas Financiers Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ABBOTINDIA",
+        "companyName": "Abbott India Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ACE",
+        "companyName": "Action Construction Equipment Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ACUTAAS",
+        "companyName": "Acutaas Chemicals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ADANIENSOL",
+        "companyName": "Adani Energy Solutions Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "ADANIENT",
+        "companyName": "Adani Enterprises Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "ADANIGREEN",
+        "companyName": "Adani Green Energy Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "ADANIPORTS",
+        "companyName": "Adani Ports and Special Economic Zone Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "ADANIPOWER",
+        "companyName": "Adani Power Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "ATGL",
+        "companyName": "Adani Total Gas Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "ABCAPITAL",
+        "companyName": "Aditya Birla Capital Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ABFRL",
+        "companyName": "Aditya Birla Fashion and Retail Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "ABLBL",
+        "companyName": "Aditya Birla Lifestyle Brands Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "ABREL",
+        "companyName": "Aditya Birla Real Estate Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "ABSLAMC",
+        "companyName": "Aditya Birla Sun Life AMC Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CPPLUS",
+        "companyName": "Aditya Infotech Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "AEGISLOG",
+        "companyName": "Aegis Logistics Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "AEGISVOPAK",
+        "companyName": "Aegis Vopak Terminals Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "AFCONS",
+        "companyName": "Afcons Infrastructure Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "AFFLE",
+        "companyName": "Affle 3i Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "AJANTPHARM",
+        "companyName": "Ajanta Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ALKEM",
+        "companyName": "Alkem Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ABDL",
+        "companyName": "Allied Blenders and Distillers Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "ARE&M",
+        "companyName": "Amara Raja Energy & Mobility Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "AMBER",
+        "companyName": "Amber Enterprises India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "AMBUJACEM",
+        "companyName": "Ambuja Cements Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "ANANDRATHI",
+        "companyName": "Anand Rathi Wealth Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ANANTRAJ",
+        "companyName": "Anant Raj Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "ANGELONE",
+        "companyName": "Angel One Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ANTHEM",
+        "companyName": "Anthem Biosciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ANURAS",
+        "companyName": "Anupam Rasayan India Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "APARINDS",
+        "companyName": "Apar Industries Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "APOLLOHOSP",
+        "companyName": "Apollo Hospitals Enterprise Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "APOLLOTYRE",
+        "companyName": "Apollo Tyres Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "APTUS",
+        "companyName": "Aptus Value Housing Finance India Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ASAHIINDIA",
+        "companyName": "Asahi India Glass Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ASHOKLEY",
+        "companyName": "Ashok Leyland Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ASIANPAINT",
+        "companyName": "Asian Paints Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "ASTERDM",
+        "companyName": "Aster DM Healthcare Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ASTRAL",
+        "companyName": "Astral Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ATHERENERG",
+        "companyName": "Ather Energy Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ATUL",
+        "companyName": "Atul Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "AUROPHARMA",
+        "companyName": "Aurobindo Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "AIIL",
+        "companyName": "Authum Investment & Infrastructure Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "DMART",
+        "companyName": "Avenue Supermarts Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "AXISBANK",
+        "companyName": "Axis Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BEML",
+        "companyName": "BEML Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "BLS",
+        "companyName": "BLS International Services Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "BSE",
+        "companyName": "BSE Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BAJAJ-AUTO",
+        "companyName": "Bajaj Auto Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "BAJFINANCE",
+        "companyName": "Bajaj Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BAJAJFINSV",
+        "companyName": "Bajaj Finserv Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BAJAJHLDNG",
+        "companyName": "Bajaj Holdings & Investment Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BAJAJHFL",
+        "companyName": "Bajaj Housing Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BALKRISIND",
+        "companyName": "Balkrishna Industries Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "BALRAMCHIN",
+        "companyName": "Balrampur Chini Mills Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "BANDHANBNK",
+        "companyName": "Bandhan Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BANKBARODA",
+        "companyName": "Bank of Baroda",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BANKINDIA",
+        "companyName": "Bank of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MAHABANK",
+        "companyName": "Bank of Maharashtra",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BATAINDIA",
+        "companyName": "Bata India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "BAYERCROP",
+        "companyName": "Bayer Cropscience Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "BELRISE",
+        "companyName": "Belrise Industries Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "BERGEPAINT",
+        "companyName": "Berger Paints India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "BDL",
+        "companyName": "Bharat Dynamics Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "BEL",
+        "companyName": "Bharat Electronics Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "BHARATFORG",
+        "companyName": "Bharat Forge Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "BHEL",
+        "companyName": "Bharat Heavy Electricals Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "BPCL",
+        "companyName": "Bharat Petroleum Corporation Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "BHARTIARTL",
+        "companyName": "Bharti Airtel Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "BHARTIHEXA",
+        "companyName": "Bharti Hexacom Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "BIKAJI",
+        "companyName": "Bikaji Foods International Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "GROWW",
+        "companyName": "Billionbrains Garage Ventures Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "BIOCON",
+        "companyName": "Biocon Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "BSOFT",
+        "companyName": "Birlasoft Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "BLUEDART",
+        "companyName": "Blue Dart Express Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "BLUEJET",
+        "companyName": "Blue Jet Healthcare Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "BLUESTARCO",
+        "companyName": "Blue Star Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "BBTC",
+        "companyName": "Bombay Burmah Trading Corporation Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "BOSCHLTD",
+        "companyName": "Bosch Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "FIRSTCRY",
+        "companyName": "Brainbees Solutions Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "BRIGADE",
+        "companyName": "Brigade Enterprises Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "BRITANNIA",
+        "companyName": "Britannia Industries Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "MAPMYINDIA",
+        "companyName": "C.E. Info Systems Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "CCL",
+        "companyName": "CCL Products (I) Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "CESC",
+        "companyName": "CESC Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "CGPOWER",
+        "companyName": "CG Power and Industrial Solutions Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "CIEINDIA",
+        "companyName": "CIE Automotive India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "CRISIL",
+        "companyName": "CRISIL Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CANFINHOME",
+        "companyName": "Can Fin Homes Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CANBK",
+        "companyName": "Canara Bank",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CANHLIFE",
+        "companyName": "Canara HSBC Life Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CAPLIPOINT",
+        "companyName": "Caplin Point Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "CGCL",
+        "companyName": "Capri Global Capital Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CARBORUNIV",
+        "companyName": "Carborundum Universal Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "CARTRADE",
+        "companyName": "Cartrade Tech Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "CASTROLIND",
+        "companyName": "Castrol India Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "CEATLTD",
+        "companyName": "Ceat Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "CEMPRO",
+        "companyName": "Cemindia Projects Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "CENTRALBK",
+        "companyName": "Central Bank of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CDSL",
+        "companyName": "Central Depository Services (India) Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CHALET",
+        "companyName": "Chalet Hotels Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "CHAMBLFERT",
+        "companyName": "Chambal Fertilizers & Chemicals Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "CHENNPETRO",
+        "companyName": "Chennai Petroleum Corporation Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "CHOICEIN",
+        "companyName": "Choice International Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CHOLAHLDNG",
+        "companyName": "Cholamandalam Financial Holdings Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CHOLAFIN",
+        "companyName": "Cholamandalam Investment and Finance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CIPLA",
+        "companyName": "Cipla Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "CUB",
+        "companyName": "City Union Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CLEAN",
+        "companyName": "Clean Science and Technology Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "COALINDIA",
+        "companyName": "Coal India Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "COCHINSHIP",
+        "companyName": "Cochin Shipyard Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "COFORGE",
+        "companyName": "Coforge Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "COHANCE",
+        "companyName": "Cohance Lifesciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "COLPAL",
+        "companyName": "Colgate Palmolive (India) Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "CAMS",
+        "companyName": "Computer Age Management Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CONCORDBIO",
+        "companyName": "Concord Biotech Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "CONCOR",
+        "companyName": "Container Corporation of India Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "COROMANDEL",
+        "companyName": "Coromandel International Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "CRAFTSMAN",
+        "companyName": "Craftsman Automation Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "CREDITACC",
+        "companyName": "CreditAccess Grameen Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "CROMPTON",
+        "companyName": "Crompton Greaves Consumer Electricals Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "CUMMINSIND",
+        "companyName": "Cummins India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "CYIENT",
+        "companyName": "Cyient Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "DCMSHRIRAM",
+        "companyName": "DCM Shriram Ltd.",
+        "marketCategory": "Diversified"
+    },
+    {
+        "symbol": "DLF",
+        "companyName": "DLF Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "DOMS",
+        "companyName": "DOMS Industries Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "DABUR",
+        "companyName": "Dabur India Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "DALBHARAT",
+        "companyName": "Dalmia Bharat Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "DATAPATTNS",
+        "companyName": "Data Patterns (India) Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "DEEPAKFERT",
+        "companyName": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "DEEPAKNTR",
+        "companyName": "Deepak Nitrite Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "DELHIVERY",
+        "companyName": "Delhivery Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "DEVYANI",
+        "companyName": "Devyani International Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "DIVISLAB",
+        "companyName": "Divi's Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "DIXON",
+        "companyName": "Dixon Technologies (India) Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "LALPATHLAB",
+        "companyName": "Dr. Lal Path Labs Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "DRREDDY",
+        "companyName": "Dr. Reddy's Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "DUMMYVEDL1",
+        "companyName": "Dummy Vedanta Ltd. 1",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "DUMMYVEDL2",
+        "companyName": "Dummy Vedanta Ltd. 2",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "DUMMYVEDL3",
+        "companyName": "Dummy Vedanta Ltd. 3",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "DUMMYVEDL4",
+        "companyName": "Dummy Vedanta Ltd. 4",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "EIDPARRY",
+        "companyName": "E.I.D. Parry (India) Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "EIHOTEL",
+        "companyName": "EIH Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "EICHERMOT",
+        "companyName": "Eicher Motors Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ELECON",
+        "companyName": "Elecon Engineering Co. Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ELGIEQUIP",
+        "companyName": "Elgi Equipments Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "EMAMILTD",
+        "companyName": "Emami Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "EMCURE",
+        "companyName": "Emcure Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "EMMVEE",
+        "companyName": "Emmvee Photovoltaic Power Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ENDURANCE",
+        "companyName": "Endurance Technologies Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ENGINERSIN",
+        "companyName": "Engineers India Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "ERIS",
+        "companyName": "Eris Lifesciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ESCORTS",
+        "companyName": "Escorts Kubota Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ETERNAL",
+        "companyName": "Eternal Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "EXIDEIND",
+        "companyName": "Exide Industries Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "NYKAA",
+        "companyName": "FSN E-Commerce Ventures Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "FEDERALBNK",
+        "companyName": "Federal Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "FACT",
+        "companyName": "Fertilisers and Chemicals Travancore Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "FINCABLES",
+        "companyName": "Finolex Cables Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "FSL",
+        "companyName": "Firstsource Solutions Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "FIVESTAR",
+        "companyName": "Five-Star Business Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "FORCEMOT",
+        "companyName": "Force Motors Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "FORTIS",
+        "companyName": "Fortis Healthcare Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "GAIL",
+        "companyName": "GAIL (India) Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "GVT&D",
+        "companyName": "GE Vernova T&D India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "GMRAIRPORT",
+        "companyName": "GMR Airports Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "GABRIEL",
+        "companyName": "Gabriel India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "GALLANTT",
+        "companyName": "Gallantt Ispat Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "GRSE",
+        "companyName": "Garden Reach Shipbuilders & Engineers Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "GICRE",
+        "companyName": "General Insurance Corporation of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "GILLETTE",
+        "companyName": "Gillette India Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "GLAND",
+        "companyName": "Gland Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "GLAXO",
+        "companyName": "Glaxosmithkline Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "GLENMARK",
+        "companyName": "Glenmark Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "MEDANTA",
+        "companyName": "Global Health Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "GODIGIT",
+        "companyName": "Go Digit General Insurance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "GPIL",
+        "companyName": "Godawari Power & Ispat Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "GODFRYPHLP",
+        "companyName": "Godfrey Phillips India Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "GODREJCP",
+        "companyName": "Godrej Consumer Products Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "GODREJIND",
+        "companyName": "Godrej Industries Ltd.",
+        "marketCategory": "Diversified"
+    },
+    {
+        "symbol": "GODREJPROP",
+        "companyName": "Godrej Properties Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "GRANULES",
+        "companyName": "Granules India Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "GRAPHITE",
+        "companyName": "Graphite India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "GRASIM",
+        "companyName": "Grasim Industries Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "GRAVITA",
+        "companyName": "Gravita India Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "GESHIP",
+        "companyName": "Great Eastern Shipping Co. Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "FLUOROCHEM",
+        "companyName": "Gujarat Fluorochemicals Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "GMDCLTD",
+        "companyName": "Gujarat Mineral Development Corporation Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "HEG",
+        "companyName": "H.E.G. Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "HBLENGINE",
+        "companyName": "HBL Engineering Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "HCLTECH",
+        "companyName": "HCL Technologies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "HDBFS",
+        "companyName": "HDB Financial Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HDFCAMC",
+        "companyName": "HDFC Asset Management Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HDFCBANK",
+        "companyName": "HDFC Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HDFCLIFE",
+        "companyName": "HDFC Life Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HFCL",
+        "companyName": "HFCL Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "HAVELLS",
+        "companyName": "Havells India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "HEROMOTOCO",
+        "companyName": "Hero MotoCorp Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "HEXT",
+        "companyName": "Hexaware Technologies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "HSCL",
+        "companyName": "Himadri Speciality Chemical Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "HINDALCO",
+        "companyName": "Hindalco Industries Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "HAL",
+        "companyName": "Hindustan Aeronautics Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "HINDCOPPER",
+        "companyName": "Hindustan Copper Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "HINDPETRO",
+        "companyName": "Hindustan Petroleum Corporation Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "HINDUNILVR",
+        "companyName": "Hindustan Unilever Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "HINDZINC",
+        "companyName": "Hindustan Zinc Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "POWERINDIA",
+        "companyName": "Hitachi Energy India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "HOMEFIRST",
+        "companyName": "Home First Finance Company India Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HONASA",
+        "companyName": "Honasa Consumer Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "HONAUT",
+        "companyName": "Honeywell Automation India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "HUDCO",
+        "companyName": "Housing & Urban Development Corporation Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "HYUNDAI",
+        "companyName": "Hyundai Motor India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ICICIBANK",
+        "companyName": "ICICI Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ICICIGI",
+        "companyName": "ICICI Lombard General Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ICICIAMC",
+        "companyName": "ICICI Prudential Asset Management Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ICICIPRULI",
+        "companyName": "ICICI Prudential Life Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IDBI",
+        "companyName": "IDBI Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IDFCFIRSTB",
+        "companyName": "IDFC First Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IFCI",
+        "companyName": "IFCI Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IIFL",
+        "companyName": "IIFL Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IRB",
+        "companyName": "IRB Infrastructure Developers Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "IRCON",
+        "companyName": "IRCON International Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "ITCHOTELS",
+        "companyName": "ITC Hotels Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "ITC",
+        "companyName": "ITC Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "ITI",
+        "companyName": "ITI Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "INDGN",
+        "companyName": "Indegene Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "INDIACEM",
+        "companyName": "India Cements Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "INDIAMART",
+        "companyName": "Indiamart Intermesh Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "INDIANB",
+        "companyName": "Indian Bank",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IEX",
+        "companyName": "Indian Energy Exchange Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "INDHOTEL",
+        "companyName": "Indian Hotels Co. Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "IOC",
+        "companyName": "Indian Oil Corporation Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "IOB",
+        "companyName": "Indian Overseas Bank",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IRCTC",
+        "companyName": "Indian Railway Catering And Tourism Corporation Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "IRFC",
+        "companyName": "Indian Railway Finance Corporation Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IREDA",
+        "companyName": "Indian Renewable Energy Development Agency Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "IGL",
+        "companyName": "Indraprastha Gas Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "INDUSTOWER",
+        "companyName": "Indus Towers Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "INDUSINDBK",
+        "companyName": "IndusInd Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "NAUKRI",
+        "companyName": "Info Edge (India) Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "INFY",
+        "companyName": "Infosys Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "INOXWIND",
+        "companyName": "Inox Wind Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "INTELLECT",
+        "companyName": "Intellect Design Arena Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "INDIGO",
+        "companyName": "InterGlobe Aviation Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "IGIL",
+        "companyName": "International Gemological Institute Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "IKS",
+        "companyName": "Inventurus Knowledge Solutions Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "IPCALAB",
+        "companyName": "Ipca Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "JBCHEPHARM",
+        "companyName": "J.B. Chemicals & Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "JKCEMENT",
+        "companyName": "J.K. Cement Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "JBMA",
+        "companyName": "JBM Auto Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "JKTYRE",
+        "companyName": "JK Tyre & Industries Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "JMFINANCIL",
+        "companyName": "JM Financial Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "JSWCEMENT",
+        "companyName": "JSW Cement Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "JSWDULUX",
+        "companyName": "JSW Dulux Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "JSWENERGY",
+        "companyName": "JSW Energy Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "JSWINFRA",
+        "companyName": "JSW Infrastructure Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "JSWSTEEL",
+        "companyName": "JSW Steel Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "JAINREC",
+        "companyName": "Jain Resource Recycling Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "JPPOWER",
+        "companyName": "Jaiprakash Power Ventures Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "J&KBANK",
+        "companyName": "Jammu & Kashmir Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "JINDALSAW",
+        "companyName": "Jindal Saw Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "JSL",
+        "companyName": "Jindal Stainless Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "JINDALSTEL",
+        "companyName": "Jindal Steel Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "JIOFIN",
+        "companyName": "Jio Financial Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "JUBLFOOD",
+        "companyName": "Jubilant Foodworks Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "JUBLINGREA",
+        "companyName": "Jubilant Ingrevia Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "JUBLPHARMA",
+        "companyName": "Jubilant Pharmova Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "JWL",
+        "companyName": "Jupiter Wagons Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "JYOTICNC",
+        "companyName": "Jyoti CNC Automation Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "KPRMILL",
+        "companyName": "K.P.R. Mill Ltd.",
+        "marketCategory": "Textiles"
+    },
+    {
+        "symbol": "KEI",
+        "companyName": "KEI Industries Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "KPITTECH",
+        "companyName": "KPIT Technologies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "KAJARIACER",
+        "companyName": "Kajaria Ceramics Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "KPIL",
+        "companyName": "Kalpataru Projects International Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "KALYANKJIL",
+        "companyName": "Kalyan Jewellers India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "KARURVYSYA",
+        "companyName": "Karur Vysya Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "KAYNES",
+        "companyName": "Kaynes Technology India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "KEC",
+        "companyName": "Kec International Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "KFINTECH",
+        "companyName": "Kfin Technologies Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "KIRLOSENG",
+        "companyName": "Kirloskar Oil Eng Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "KOTAKBANK",
+        "companyName": "Kotak Mahindra Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "KIMS",
+        "companyName": "Krishna Institute of Medical Sciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "LTF",
+        "companyName": "L&T Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "LTTS",
+        "companyName": "L&T Technology Services Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "LGEINDIA",
+        "companyName": "LG Electronics India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "LICHSGFIN",
+        "companyName": "LIC Housing Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "LTFOODS",
+        "companyName": "LT Foods Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "LTM",
+        "companyName": "LTM Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "LT",
+        "companyName": "Larsen & Toubro Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "LATENTVIEW",
+        "companyName": "Latent View Analytics Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "LAURUSLABS",
+        "companyName": "Laurus Labs Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "THELEELA",
+        "companyName": "Leela Palaces Hotels & Resorts Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "LEMONTREE",
+        "companyName": "Lemon Tree Hotels Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "LENSKART",
+        "companyName": "Lenskart Solutions Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "LICI",
+        "companyName": "Life Insurance Corporation of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "LINDEINDIA",
+        "companyName": "Linde India Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "LLOYDSME",
+        "companyName": "Lloyds Metals And Energy Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "LODHA",
+        "companyName": "Lodha Developers Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "LUPIN",
+        "companyName": "Lupin Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "MMTC",
+        "companyName": "MMTC Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "MRF",
+        "companyName": "MRF Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "MGL",
+        "companyName": "Mahanagar Gas Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "M&MFIN",
+        "companyName": "Mahindra & Mahindra Financial Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "M&M",
+        "companyName": "Mahindra & Mahindra Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "MANAPPURAM",
+        "companyName": "Manappuram Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MRPL",
+        "companyName": "Mangalore Refinery & Petrochemicals Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "MANKIND",
+        "companyName": "Mankind Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "MARICO",
+        "companyName": "Marico Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "MARUTI",
+        "companyName": "Maruti Suzuki India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "MFSL",
+        "companyName": "Max Financial Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MAXHEALTH",
+        "companyName": "Max Healthcare Institute Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "MAZDOCK",
+        "companyName": "Mazagoan Dock Shipbuilders Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "MEESHO",
+        "companyName": "Meesho Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "MINDACORP",
+        "companyName": "Minda Corporation Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "MSUMI",
+        "companyName": "Motherson Sumi Wiring India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "MOTILALOFS",
+        "companyName": "Motilal Oswal Financial Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MPHASIS",
+        "companyName": "MphasiS Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "MCX",
+        "companyName": "Multi Commodity Exchange of India Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MUTHOOTFIN",
+        "companyName": "Muthoot Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "NATCOPHARM",
+        "companyName": "NATCO Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "NBCC",
+        "companyName": "NBCC (India) Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "NCC",
+        "companyName": "NCC Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "NHPC",
+        "companyName": "NHPC Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "NLCINDIA",
+        "companyName": "NLC India Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "NMDC",
+        "companyName": "NMDC Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "NSLNISP",
+        "companyName": "NMDC Steel Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "NTPCGREEN",
+        "companyName": "NTPC Green Energy Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "NTPC",
+        "companyName": "NTPC Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "NH",
+        "companyName": "Narayana Hrudayalaya Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "NATIONALUM",
+        "companyName": "National Aluminium Co. Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "NAVA",
+        "companyName": "Nava Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "NAVINFLUOR",
+        "companyName": "Navin Fluorine International Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "NESTLEIND",
+        "companyName": "Nestle India Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "NETWEB",
+        "companyName": "Netweb Technologies India Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "NEULANDLAB",
+        "companyName": "Neuland Laboratories Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "NEWGEN",
+        "companyName": "Newgen Software Technologies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "NAM-INDIA",
+        "companyName": "Nippon Life India Asset Management Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "NIVABUPA",
+        "companyName": "Niva Bupa Health Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "NUVAMA",
+        "companyName": "Nuvama Wealth Management Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "NUVOCO",
+        "companyName": "Nuvoco Vistas Corporation Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "OBEROIRLTY",
+        "companyName": "Oberoi Realty Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "ONGC",
+        "companyName": "Oil & Natural Gas Corporation Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "OIL",
+        "companyName": "Oil India Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "OLAELEC",
+        "companyName": "Ola Electric Mobility Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "OLECTRA",
+        "companyName": "Olectra Greentech Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "PAYTM",
+        "companyName": "One 97 Communications Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ONESOURCE",
+        "companyName": "Onesource Specialty Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "OFSS",
+        "companyName": "Oracle Financial Services Software Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "POLICYBZR",
+        "companyName": "PB Fintech Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "PCBL",
+        "companyName": "PCBL Chemical Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "PGEL",
+        "companyName": "PG Electroplast Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "PIIND",
+        "companyName": "PI Industries Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "PNBHOUSING",
+        "companyName": "PNB Housing Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "PTCIL",
+        "companyName": "PTC Industries Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "PVRINOX",
+        "companyName": "PVR INOX Ltd.",
+        "marketCategory": "Media Entertainment & Publication"
+    },
+    {
+        "symbol": "PAGEIND",
+        "companyName": "Page Industries Ltd.",
+        "marketCategory": "Textiles"
+    },
+    {
+        "symbol": "PARADEEP",
+        "companyName": "Paradeep Phosphates Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "PATANJALI",
+        "companyName": "Patanjali Foods Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "PERSISTENT",
+        "companyName": "Persistent Systems Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "PETRONET",
+        "companyName": "Petronet LNG Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "PFIZER",
+        "companyName": "Pfizer Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "PHOENIXLTD",
+        "companyName": "Phoenix Mills Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "PWL",
+        "companyName": "Physicswallah Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "PIDILITIND",
+        "companyName": "Pidilite Industries Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "PINELABS",
+        "companyName": "Pine Labs Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "PIRAMALFIN",
+        "companyName": "Piramal Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "PPLPHARMA",
+        "companyName": "Piramal Pharma Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "POLYMED",
+        "companyName": "Poly Medicure Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "POLYCAB",
+        "companyName": "Polycab India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "POONAWALLA",
+        "companyName": "Poonawalla Fincorp Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "PFC",
+        "companyName": "Power Finance Corporation Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "POWERGRID",
+        "companyName": "Power Grid Corporation of India Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "PREMIERENE",
+        "companyName": "Premier Energies Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "PRESTIGE",
+        "companyName": "Prestige Estates Projects Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "PNB",
+        "companyName": "Punjab National Bank",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "RRKABEL",
+        "companyName": "R R Kabel Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "RBLBANK",
+        "companyName": "RBL Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "RECLTD",
+        "companyName": "REC Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "RHIM",
+        "companyName": "RHI MAGNESITA INDIA LTD.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "RITES",
+        "companyName": "RITES Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "RADICO",
+        "companyName": "Radico Khaitan Ltd",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "RVNL",
+        "companyName": "Rail Vikas Nigam Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "RAILTEL",
+        "companyName": "Railtel Corporation Of India Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "RAINBOW",
+        "companyName": "Rainbow Childrens Medicare Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "RKFORGE",
+        "companyName": "Ramkrishna Forgings Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "REDINGTON",
+        "companyName": "Redington Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "RELIANCE",
+        "companyName": "Reliance Industries Ltd.",
+        "marketCategory": "Oil Gas & Consumable Fuels"
+    },
+    {
+        "symbol": "RPOWER",
+        "companyName": "Reliance Power Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "SBFC",
+        "companyName": "SBFC Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SBICARD",
+        "companyName": "SBI Cards and Payment Services Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SBILIFE",
+        "companyName": "SBI Life Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SJVN",
+        "companyName": "SJVN Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "SRF",
+        "companyName": "SRF Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "SAGILITY",
+        "companyName": "Sagility Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "SAILIFE",
+        "companyName": "Sai Life Sciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "SAMMAANCAP",
+        "companyName": "Sammaan Capital Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "MOTHERSON",
+        "companyName": "Samvardhana Motherson International Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "SAPPHIRE",
+        "companyName": "Sapphire Foods India Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "SARDAEN",
+        "companyName": "Sarda Energy and Minerals Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "SAREGAMA",
+        "companyName": "Saregama India Ltd",
+        "marketCategory": "Media Entertainment & Publication"
+    },
+    {
+        "symbol": "SCHAEFFLER",
+        "companyName": "Schaeffler India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "SCHNEIDER",
+        "companyName": "Schneider Electric Infrastructure Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "SCI",
+        "companyName": "Shipping Corporation of India Ltd.",
+        "marketCategory": "Services"
+    },
+    {
+        "symbol": "SHREECEM",
+        "companyName": "Shree Cement Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "SHRIRAMFIN",
+        "companyName": "Shriram Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SHYAMMETL",
+        "companyName": "Shyam Metalics and Energy Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ENRIN",
+        "companyName": "Siemens Energy India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "SIEMENS",
+        "companyName": "Siemens Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "SIGNATURE",
+        "companyName": "Signatureglobal (India) Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "SOBHA",
+        "companyName": "Sobha Ltd.",
+        "marketCategory": "Realty"
+    },
+    {
+        "symbol": "SOLARINDS",
+        "companyName": "Solar Industries India Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "SONACOMS",
+        "companyName": "Sona BLW Precision Forgings Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "SONATSOFTW",
+        "companyName": "Sonata Software Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "STARHEALTH",
+        "companyName": "Star Health and Allied Insurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SBIN",
+        "companyName": "State Bank of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SAIL",
+        "companyName": "Steel Authority of India Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "SUMICHEM",
+        "companyName": "Sumitomo Chemical India Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "SUNPHARMA",
+        "companyName": "Sun Pharmaceutical Industries Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "SUNTV",
+        "companyName": "Sun TV Network Ltd.",
+        "marketCategory": "Media Entertainment & Publication"
+    },
+    {
+        "symbol": "SUNDARMFIN",
+        "companyName": "Sundaram Finance Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "SUPREMEIND",
+        "companyName": "Supreme Industries Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "SPLPETRO",
+        "companyName": "Supreme Petrochem Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "SUZLON",
+        "companyName": "Suzlon Energy Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "SWANCORP",
+        "companyName": "Swan Corp Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "SWIGGY",
+        "companyName": "Swiggy Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "SYNGENE",
+        "companyName": "Syngene International Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "SYRMA",
+        "companyName": "Syrma SGS Technology Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TBOTEK",
+        "companyName": "TBO Tek Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "TVSMOTOR",
+        "companyName": "TVS Motor Company Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "TATACAP",
+        "companyName": "Tata Capital Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "TATACHEM",
+        "companyName": "Tata Chemicals Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "TATACOMM",
+        "companyName": "Tata Communications Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "TCS",
+        "companyName": "Tata Consultancy Services Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "TATACONSUM",
+        "companyName": "Tata Consumer Products Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "TATAELXSI",
+        "companyName": "Tata Elxsi Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "TATAINVEST",
+        "companyName": "Tata Investment Corporation Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "TMCV",
+        "companyName": "Tata Motors Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TMPV",
+        "companyName": "Tata Motors Passenger Vehicles Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "TATAPOWER",
+        "companyName": "Tata Power Co. Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "TATASTEEL",
+        "companyName": "Tata Steel Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "TATATECH",
+        "companyName": "Tata Technologies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "TTML",
+        "companyName": "Tata Teleservices (Maharashtra) Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "TECHM",
+        "companyName": "Tech Mahindra Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "TECHNOE",
+        "companyName": "Techno Electric & Engineering Company Ltd.",
+        "marketCategory": "Construction"
+    },
+    {
+        "symbol": "TEGA",
+        "companyName": "Tega Industries Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TEJASNET",
+        "companyName": "Tejas Networks Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "TENNIND",
+        "companyName": "Tenneco Clean Air India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "NIACL",
+        "companyName": "The New India Assurance Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "RAMCOCEM",
+        "companyName": "The Ramco Cements Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "THERMAX",
+        "companyName": "Thermax Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TIMKEN",
+        "companyName": "Timken India Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TITAGARH",
+        "companyName": "Titagarh Rail Systems Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TITAN",
+        "companyName": "Titan Company Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "TORNTPHARM",
+        "companyName": "Torrent Pharmaceuticals Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "TORNTPOWER",
+        "companyName": "Torrent Power Ltd.",
+        "marketCategory": "Power"
+    },
+    {
+        "symbol": "TARIL",
+        "companyName": "Transformers And Rectifiers (India) Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TRAVELFOOD",
+        "companyName": "Travel Food Services Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "TRENT",
+        "companyName": "Trent Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "TRIDENT",
+        "companyName": "Trident Ltd.",
+        "marketCategory": "Textiles"
+    },
+    {
+        "symbol": "TRITURBINE",
+        "companyName": "Triveni Turbine Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "TIINDIA",
+        "companyName": "Tube Investments of India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "UCOBANK",
+        "companyName": "UCO Bank",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "UNOMINDA",
+        "companyName": "UNO Minda Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "UPL",
+        "companyName": "UPL Ltd.",
+        "marketCategory": "Chemicals"
+    },
+    {
+        "symbol": "UTIAMC",
+        "companyName": "UTI Asset Management Company Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ULTRACEMCO",
+        "companyName": "UltraTech Cement Ltd.",
+        "marketCategory": "Construction Materials"
+    },
+    {
+        "symbol": "UNIONBANK",
+        "companyName": "Union Bank of India",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "UBL",
+        "companyName": "United Breweries Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "UNITDSPR",
+        "companyName": "United Spirits Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "URBANCO",
+        "companyName": "Urban Company Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "USHAMART",
+        "companyName": "Usha Martin Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "VTL",
+        "companyName": "Vardhman Textiles Ltd.",
+        "marketCategory": "Textiles"
+    },
+    {
+        "symbol": "VBL",
+        "companyName": "Varun Beverages Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "VEDL",
+        "companyName": "Vedanta Ltd.",
+        "marketCategory": "Metals & Mining"
+    },
+    {
+        "symbol": "VIJAYA",
+        "companyName": "Vijaya Diagnostic Centre Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "VMM",
+        "companyName": "Vishal Mega Mart Ltd.",
+        "marketCategory": "Consumer Services"
+    },
+    {
+        "symbol": "IDEA",
+        "companyName": "Vodafone Idea Ltd.",
+        "marketCategory": "Telecommunication"
+    },
+    {
+        "symbol": "VOLTAS",
+        "companyName": "Voltas Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "WAAREEENER",
+        "companyName": "Waaree Energies Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "WELCORP",
+        "companyName": "Welspun Corp Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "WELSPUNLIV",
+        "companyName": "Welspun Living Ltd.",
+        "marketCategory": "Textiles"
+    },
+    {
+        "symbol": "WHIRLPOOL",
+        "companyName": "Whirlpool of India Ltd.",
+        "marketCategory": "Consumer Durables"
+    },
+    {
+        "symbol": "WIPRO",
+        "companyName": "Wipro Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "WOCKPHARMA",
+        "companyName": "Wockhardt Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "YESBANK",
+        "companyName": "Yes Bank Ltd.",
+        "marketCategory": "Financial Services"
+    },
+    {
+        "symbol": "ZFCVINDIA",
+        "companyName": "ZF Commercial Vehicle Control Systems India Ltd.",
+        "marketCategory": "Automobile and Auto Components"
+    },
+    {
+        "symbol": "ZEEL",
+        "companyName": "Zee Entertainment Enterprises Ltd.",
+        "marketCategory": "Media Entertainment & Publication"
+    },
+    {
+        "symbol": "ZENTEC",
+        "companyName": "Zen Technologies Ltd.",
+        "marketCategory": "Capital Goods"
+    },
+    {
+        "symbol": "ZENSARTECH",
+        "companyName": "Zensar Technolgies Ltd.",
+        "marketCategory": "Information Technology"
+    },
+    {
+        "symbol": "ZYDUSLIFE",
+        "companyName": "Zydus Lifesciences Ltd.",
+        "marketCategory": "Healthcare"
+    },
+    {
+        "symbol": "ZYDUSWELL",
+        "companyName": "Zydus Wellness Ltd.",
+        "marketCategory": "Fast Moving Consumer Goods"
+    },
+    {
+        "symbol": "ECLERX",
+        "companyName": "eClerx Services Ltd.",
+        "marketCategory": "Services"
+    }
+]

@@ -10,6 +10,7 @@ const StockTable = () => {
         pChange: '',
         perChange30d: '',
         perChange365d: '',
+        industry: '',
         symbol: ''
     });
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
@@ -22,6 +23,7 @@ const StockTable = () => {
     const DUMMY_STOCK = {
         symbol: 'DEMO-NSE',
         companyName: 'Demo NSE Company Limited',
+        industry: 'Demo Industry (Backend Offline)',
         price: 1234.56,
         pChange: 1.25,
         perChange30d: 5.67,
@@ -117,6 +119,7 @@ const StockTable = () => {
             pChange: '',
             perChange30d: '',
             perChange365d: '',
+            industry: '',
             symbol: ''
         });
         setSortConfig({ key: null, direction: null });
@@ -185,6 +188,11 @@ const StockTable = () => {
                 const symbolMatch = stock.symbol.toLowerCase().includes(searchTerm);
                 const companyMatch = (stock.companyName || '').toLowerCase().includes(searchTerm);
                 if (!symbolMatch && !companyMatch) return false;
+            }
+
+            // Industry text filter
+            if (filters.industry && !(stock.industry || '').toLowerCase().includes(filters.industry.toLowerCase())) {
+                return false;
             }
 
             const pChangeMin = parseFloat(filters.pChange);
@@ -336,6 +344,28 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
+                                className="px-6 py-4 text-left cursor-pointer hover:text-white transition-colors w-48"
+                                onClick={() => requestSort('industry')}
+                            >
+                                <div className="flex flex-col gap-2">
+                                    <div className="flex items-center gap-1">
+                                        Industry
+                                        {sortConfig.key === 'industry' ? (
+                                            sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                                        ) : <ChevronDown size={14} className="opacity-20" />}
+                                    </div>
+                                    <input
+                                        type="text"
+                                        name="industry"
+                                        value={filters.industry}
+                                        onChange={handleFilterChange}
+                                        onClick={(e) => e.stopPropagation()}
+                                        placeholder="Filter..."
+                                        className="bg-gray-800 border border-gray-700 rounded px-2 py-1 text-[11px] text-white focus:outline-none focus:ring-1 focus:ring-blue-500/50 font-normal w-full"
+                                    />
+                                </div>
+                            </th>
+                            <th
                                 className="px-6 py-4 text-right cursor-pointer hover:text-white transition-colors"
                                 onClick={() => requestSort('price')}
                             >
@@ -450,6 +480,9 @@ const StockTable = () => {
                                                 </span>
                                             )}
                                         </div>
+                                    </td>
+                                    <td className="px-6 py-4 text-left font-medium text-gray-400 w-48 truncate">
+                                        <span className="text-sm" title={stock.industry}>{(stock.industry || 'N/A').split(' ').slice(0, 3).join(' ')}</span>
                                     </td>
                                     <td className="px-6 py-4 text-right font-mono text-lg font-bold">
                                         <div className={classNames("flex items-center justify-end gap-2 transition-colors duration-300", priceClass)}>
