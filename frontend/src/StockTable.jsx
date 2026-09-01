@@ -321,7 +321,7 @@ const StockTable = () => {
                 <table className="w-full text-left text-sm text-gray-300">
                     <thead className="bg-gray-900 border-b border-gray-700 uppercase tracking-wider text-xs font-semibold text-gray-400">
                         <tr>
-                            <th className="px-6 py-4">
+                            <th className="px-3.5 md:px-4 py-3.5">
                                 <div className="flex flex-col gap-2">
                                     <div
                                         className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors"
@@ -344,7 +344,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-left cursor-pointer hover:text-white transition-colors w-48"
+                                className="px-3.5 md:px-4 py-3.5 text-left cursor-pointer hover:text-white transition-colors w-36 md:w-44"
                                 onClick={() => requestSort('industry')}
                             >
                                 <div className="flex flex-col gap-2">
@@ -366,7 +366,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-right cursor-pointer hover:text-white transition-colors"
+                                className="px-3.5 md:px-4 py-3.5 text-right cursor-pointer hover:text-white transition-colors"
                                 onClick={() => requestSort('price')}
                             >
                                 <div className="flex items-center justify-end gap-1">
@@ -377,7 +377,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors w-32"
+                                className="px-3.5 md:px-4 py-3.5 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors w-28"
                                 onClick={() => requestSort('ffmc')}
                             >
                                 <div className="flex items-center justify-end gap-1">
@@ -388,7 +388,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-right cursor-pointer hover:text-white transition-colors"
+                                className="px-3.5 md:px-4 py-3.5 text-right cursor-pointer hover:text-white transition-colors"
                                 onClick={() => requestSort('pChange')}
                             >
                                 <div className="flex items-center justify-end gap-1">
@@ -399,7 +399,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors"
+                                className="px-3.5 md:px-4 py-3.5 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors"
                                 onClick={() => requestSort('perChange30d')}
                             >
                                 <div className="flex items-center justify-end gap-1">
@@ -410,7 +410,7 @@ const StockTable = () => {
                                 </div>
                             </th>
                             <th
-                                className="px-6 py-4 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors"
+                                className="px-3.5 md:px-4 py-3.5 text-right hidden xl:table-cell cursor-pointer hover:text-white transition-colors"
                                 onClick={() => requestSort('perChange365d')}
                             >
                                 <div className="flex items-center justify-end gap-1">
@@ -420,9 +420,9 @@ const StockTable = () => {
                                     ) : <ChevronDown size={14} className="opacity-20" />}
                                 </div>
                             </th>
-                            <th className="px-6 py-4 text-right hidden md:table-cell">Day Range</th>
-                            <th className="px-6 py-4 text-right hidden xl:table-cell">Year Range</th>
-                            <th className="px-6 py-4 text-right hidden lg:table-cell">GapToHigh/GapToLow</th>
+                            <th className="px-3.5 md:px-4 py-3.5 text-right hidden md:table-cell whitespace-nowrap">Day Range</th>
+                            <th className="px-3.5 md:px-4 py-3.5 text-right hidden xl:table-cell whitespace-nowrap">Year Range</th>
+                            <th className="px-3.5 md:px-4 py-3.5 text-right hidden lg:table-cell whitespace-nowrap">Gap High / Low</th>
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-700">
@@ -439,7 +439,7 @@ const StockTable = () => {
 
                             return (
                                 <tr key={stock.symbol} className="hover:bg-gray-750 transition-colors duration-150">
-                                    <td className="px-6 py-4 font-medium text-white flex items-center gap-3">
+                                    <td className="px-3.5 md:px-4 py-3.5 font-medium text-white flex items-center gap-3">
                                         <div className="flex flex-col gap-1">
                                             <button
                                                 onClick={() => toggleWatchlist(stock.symbol)}
@@ -481,20 +481,20 @@ const StockTable = () => {
                                             )}
                                         </div>
                                     </td>
-                                    <td className="px-6 py-4 text-left font-medium text-gray-400 w-48 truncate">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-left font-medium text-gray-400 w-36 md:w-44 truncate">
                                         <span className="text-sm" title={stock.industry}>{(stock.industry || 'N/A').split(' ').slice(0, 3).join(' ')}</span>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono text-lg font-bold">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono text-base md:text-lg font-bold whitespace-nowrap">
                                         <div className={classNames("flex items-center justify-end gap-2 transition-colors duration-300", priceClass)}>
                                             {formatCurrency(stock.price)}
                                             {stock.price > prevPrice && <ArrowUp size={16} />}
                                             {stock.price < prevPrice && <ArrowDown size={16} />}
                                         </div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono hidden xl:table-cell text-gray-400 w-32">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono hidden xl:table-cell text-gray-400 w-28 whitespace-nowrap">
                                         {(stock.ffmc / 10000000).toFixed(2)}
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono font-bold">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono font-bold whitespace-nowrap">
                                         <div className={classNames(
                                             "flex items-center justify-end gap-1",
                                             (stock.pChange || 0) >= 0 ? "text-green-400" : "text-red-400"
@@ -502,7 +502,7 @@ const StockTable = () => {
                                             {(stock.pChange || 0) >= 0 ? '+' : ''}{(stock.pChange || 0).toFixed(2)}%
                                         </div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono hidden xl:table-cell">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono hidden xl:table-cell whitespace-nowrap">
                                         <div className={classNames(
                                             "text-xs font-bold",
                                             (stock.perChange30d || 0) >= 0 ? "text-green-500" : "text-red-500"
@@ -510,7 +510,7 @@ const StockTable = () => {
                                             {(stock.perChange30d || 0) >= 0 ? '+' : ''}{(stock.perChange30d || 0).toFixed(2)}%
                                         </div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono hidden xl:table-cell">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono hidden xl:table-cell whitespace-nowrap">
                                         <div className={classNames(
                                             "text-xs font-bold",
                                             (stock.perChange365d || 0) >= 0 ? "text-green-500" : "text-red-500"
@@ -518,15 +518,15 @@ const StockTable = () => {
                                             {(stock.perChange365d || 0) >= 0 ? '+' : ''}{(stock.perChange365d || 0).toFixed(2)}%
                                         </div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono text-gray-400 hidden md:table-cell">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono text-gray-400 hidden md:table-cell whitespace-nowrap">
                                         <div className="text-xs text-green-500/80 mb-1">H: {formatCurrency(stock.dayHigh)}</div>
                                         <div className="text-xs text-red-500/80">L: {formatCurrency(stock.dayLow)}</div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono text-gray-400 hidden xl:table-cell">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono text-gray-400 hidden xl:table-cell whitespace-nowrap">
                                         <div className="text-xs text-green-500/80 mb-1">H: {formatCurrency(stock.yearHigh)}</div>
                                         <div className="text-xs text-red-500/80">L: {formatCurrency(stock.yearLow)}</div>
                                     </td>
-                                    <td className="px-6 py-4 text-right font-mono text-gray-400 hidden lg:table-cell">
+                                    <td className="px-3.5 md:px-4 py-3.5 text-right font-mono text-gray-400 hidden lg:table-cell whitespace-nowrap">
                                         <div className="text-xs text-green-500/80 mb-1">H: {stock.weekHigh.toFixed(1)}%</div>
                                         <div className="text-xs text-red-500/80">L: {stock.weekLow.toFixed(1)}%</div>
                                     </td>
